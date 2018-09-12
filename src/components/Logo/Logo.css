@@ -1,0 +1,51 @@
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.f3 {
+   font-size: 1.5rem;
+}
+
+/* f3 link dim black underline pa3 pointer */
+
+.dim {
+    opacity: 1;
+    transition: opacity .15s ease-in;
+}
+
+.pointer:hover {
+    cursor: pointer;
+}
+
+.black {
+    color: black;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.pa3 {
+    padding: 1rem;
+}
+
+.ma4 {
+    margin: 2rem
+}
+
+.mt0 {
+    margin-top: 0
+}
+
+.br4 {
+     border-radius: 1rem; 
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.Tilt {
+    background: linear-gradient(89deg, #ff5EDF 0%, #04c8de 100%);
+}

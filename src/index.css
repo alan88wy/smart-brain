@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  /* background: rgb(166, 52, 233); */
+  background: linear-gradient(to right, rgb(110, 235, 255), rgb(255, 169, 218));
+}
+
+button {
+  cursor: pointer;
+}
