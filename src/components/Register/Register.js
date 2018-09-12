@@ -37,7 +37,7 @@ class Register extends React.Component {
             .then(response => response.json())
             .then(user => {
                 if (user === 'failed') {
-                    this.props.displayAlert('Unable to register. User Exist!');
+                    this.props.displayAlert('Unable to register !');
                 } else if (user === 'Invalid Data') {
                     this.props.displayAlert('Invalid Name, Email or Password entered!');
                 } else {
