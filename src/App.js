@@ -218,7 +218,7 @@ class App extends Component {
             this.setState({ route: route });
         };
 
-        this.setState();
+        // this.setState();
     };
 
     render() {
