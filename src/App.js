@@ -169,7 +169,7 @@ class App extends Component {
 
         this.setState({ imageUrl: this.state.input });
 
-        fetch('http://localhost:3000/imageUrl', {
+        fetch('https://vast-shore-64670.herokuapp.com/imageUrl', {
             method: 'post',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
@@ -183,7 +183,7 @@ class App extends Component {
                 };
 
                 if (response) {
-                    fetch('http://localhost:3000/image', {
+                    fetch('https://vast-shore-64670.herokuapp.com/image', {
                         method: 'put',
                         headers: { 'Content-Type': 'application/json' },
                         body: JSON.stringify({
