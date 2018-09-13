@@ -40,7 +40,7 @@ class SignIn extends React.Component {
                 } else {
                     this.props.loadUser(user);
                     this.props.onRouteChange('home');
-                    this.props.setState({ mes: "" });
+                    this.setState({ mes: "" });
                 }
             })
 
