@@ -64,6 +64,7 @@ nav {
 }
 
 .bg-light-purple { 
+
     background-color: #a463f2; 
 }
 
@@ -107,6 +108,11 @@ nav {
 .pv2 { 
     padding-top: .5rem; 
     padding-bottom: .5rem; 
+}
+
+.ph3 {
+  padding-left: var(--spacing-medium);
+  padding-right: var(--spacing-medium);
 }
 
 .dib {   
