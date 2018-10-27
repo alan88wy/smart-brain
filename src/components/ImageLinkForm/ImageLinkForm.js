@@ -10,7 +10,7 @@ const ImageLinkForm = ({ onInputChange, onButtonSubmit }) => {
             <div className='align-center'>
                 <div className='form align-center shadow-5 pa4 br3'>
                     <input type='text' className='pa2 w-70 f4 center' onChange={onInputChange} />
-                    <button className='w-30 grow f4 link ph3 pv2 white bg-light-purple' onClick={onButtonSubmit}>Detect</button>
+                    <button className='w-30 grow f5 link ph3 pv2 white bg-light-purple' onClick={onButtonSubmit}>Detect</button>
                 </div>
             </div>
         </div>
